@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  background-color: rgb(141, 0, 151);
 }
 
 .input--text {
@@ -32,14 +33,16 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: rgb(141, 0, 151);
 }
 
 .meme--img {
   position: relative;
 }
 
-.meme > img {
+.meme--img > img {
   max-height: 300px;
+  max-width: 500px;
   width: auto;
   height: auto;
 }
@@ -53,6 +56,8 @@
   font-size: 2rem;
   left: 50%;
   transform: translate(-50%);
+  text-align: center;
+  width: 100%;
 }
 
 .topText {
@@ -65,4 +70,11 @@
 
 .meme > button {
   margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 0.7rem 3rem;
+  border-radius: 20px;
+  background-color: rgb(14, 0, 142);
+  color: white;
+  font-weight: bold;
+  border: none;
 }
